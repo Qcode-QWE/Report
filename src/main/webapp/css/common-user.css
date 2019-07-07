@@ -1,0 +1,303 @@
+@charset "utf-8";
+body {
+    font-family: "Microsoft YaHei UI", serif;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+}
+
+div, form, img, ul, ol, li, dl, dt, dd, p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+h3 {
+    font-size: 22px;
+    font-weight: normal;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+.clear {
+    clear: both;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+a, a:hover, a:active, a:focus {
+    color: blue;
+    text-decoration: none;
+}
+
+a:visited {
+    color: blue;
+}
+
+.warp {
+    background: url(../imgUser/bj.jpg) repeat-x;
+    margin: 0 auto;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.head {
+    width: 1040px;
+    margin: 30px auto;
+}
+
+.content {
+    width: 1040px;
+    margin: 18px auto;
+}
+
+.content .second {
+    width: 1040px;
+    margin: 0 auto;
+    background: url(../imgUser/m_bj.png) repeat-y;
+    overflow: hidden;
+    padding-left: 35px;
+    padding-bottom: 20px;
+}
+
+.content .second h3 span {
+    color: #bcbdbd;
+    font-size: 14px;
+    padding-left: 10px;
+    padding-top: 5px
+}
+
+.content .second .one div {
+    background: #0c92d1;
+    overflow: hidden;
+    width: 422px;
+    height: 224px;
+    color: #FFF;
+    margin-top: 35px;
+}
+
+.content .second .one a {
+    color: #FFF;
+    text-decoration: none
+}
+
+.content .second .one div:hover {
+    background: url(../imgUser/bj3.jpg) no-repeat;
+    overflow: hidden;
+    width: 422px;
+    height: 224px;
+}
+
+.content .second .one .left {
+    margin-right: 230px;
+}
+
+.content .second .one .left table {
+    padding-top: 25px;
+    padding-left: 25px
+}
+
+.content .second .one .left span {
+    font-size: 12px;
+}
+
+.content .second .one .left p {
+    line-height: 18px;
+    font-size: 16px
+}
+
+.thumbnail {
+    width: 420px;
+    height:210px;
+}
+
+.bottom {
+    width: 600px;
+    margin: 15px auto
+}
+
+.bottom p {
+    line-height: 24px;
+    text-align: center;
+    font-size: 12px;
+    color: #2c2c2c
+}
+
+/*列表页*/
+.main {
+    width: 1040px;
+    margin: 0 auto;
+    background: url(../imgUser/m_bj.png) repeat-y;
+    overflow: hidden
+}
+
+.sidebar {
+    width: 200px;
+    margin-left: 40px
+}
+
+.sidebar .title {
+    width: 200px;
+    height: 35px;
+    background: #0273b0;
+    color: #FFF;
+    font-size: 14px;
+    text-align: center;
+    line-height: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+
+.column ul li {
+    list-style: none;
+    margin-top: 5px
+}
+
+.column ul li a:link {
+    width: 198px;
+    height: 30px;
+    color: #787777;
+    border: #afafaf 1px solid;
+    text-align: center;
+    line-height: 28px;
+    font-size: 12px;
+    overflow: hidden;
+    display: block;
+    text-decoration: none
+}
+
+.column ul li a:hover {
+    width: 198px;
+    height: 30px;
+    color: #0272b0;
+    border: #0272b0 1px solid;
+    text-align: center;
+    line-height: 28px;
+    font-size: 12px;
+    overflow: hidden;
+    display: block;
+    text-decoration: none
+}
+
+.column ul li a:visited {
+    width: 198px;
+    height: 30px;
+    color: #787777;
+    border: #afafaf 1px solid;
+    text-align: center;
+    line-height: 28px;
+    font-size: 12px;
+    overflow: hidden;
+    display: block;
+    text-decoration: none
+}
+
+.newslist {
+    width: 990px;
+    margin-right: 40px
+}
+
+.newslist .title {
+    font-size: 18px;
+    border-left: solid 4px #0273b0;
+    margin-top: 10px;
+    color: #262626;
+    padding-left: 10px
+}
+
+.newslist .title span {
+    float: right;
+    font-size: 12px;
+    color: #272727;
+    font-family: "宋体"
+}
+
+.newslist .title span font {
+    color: #686868
+}
+
+.newslist .list {
+    border-bottom: solid 1px #e0e0e0;
+    border-left: solid 1px #e0e0e0;
+    border-right: solid 1px #e0e0e0;
+    border-top: solid 2px #0273b0;
+    margin-top: 10px
+}
+
+#outer {
+    width: 940px;
+    padding: 20px
+}
+
+#tab {
+    overflow: hidden;
+    zoom: 1;
+}
+
+#tab li {
+    float: right;
+    color: #6c6c6c;
+    height: 30px;
+    cursor: pointer;
+    line-height: 30px;
+    padding: 0 20px;
+    font-size: 14px;
+    margin-left: 10px;
+    background-color: #d4d4d4;
+    list-style: none
+}
+
+#tab li.current {
+    background: #0273b0;
+    color: #fff;
+}
+
+#content {
+    border-top-width: 0;
+}
+
+#content ul {
+    line-height: 25px;
+    display: none;
+    padding: 10px 0;
+}
+
+#content ul li {
+    background: url(../imgUser/icon6.png) left no-repeat;
+    padding-left: 15px;
+    line-height: 30px;
+    border-bottom: dotted 1px #c1c0c0;
+    font-size: 14px;
+    list-style: none
+}
+
+#content ul li span {
+    float: right;
+    color: #333
+}
+
+#content ul li a:link {
+    color: #343434;
+    text-decoration: none
+}
+
+#content ul li a:link {
+    color: #343434;
+    text-decoration: none
+}
+
+#content ul li a:hover {
+    color: #0273b0;
+    text-decoration: none
+}
+
+
+
+
